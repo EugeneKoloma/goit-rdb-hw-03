@@ -1,0 +1,8 @@
+SELECT AVG(price) as mean_price
+FROM mydb.products p;
+
+SELECT MAX(price) as max_prive
+FROM mydb.products p;
+
+SELECT MIN(price) as min_price
+FROM mydb.products p;

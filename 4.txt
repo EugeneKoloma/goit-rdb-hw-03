@@ -1,0 +1,4 @@
+SELECT p.name, p.price 
+FROM mydb.products p
+WHERE p.price BETWEEN 20 and 200
+ORDER BY p.price DESC;

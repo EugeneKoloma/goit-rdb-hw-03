@@ -1,0 +1,3 @@
+SELECT p.supplier_id, COUNT(p.id) as procuts_count, AVG(p.price) as mean_price
+FROM mydb.products p
+GROUP BY p.supplier_id;

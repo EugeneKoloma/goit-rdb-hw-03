@@ -1,0 +1,5 @@
+SELECT *
+FROM mydb.products p;
+
+SELECT name, phone
+FROM mydb.shippers s;
